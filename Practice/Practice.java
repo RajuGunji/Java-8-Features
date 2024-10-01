@@ -13,7 +13,7 @@ public class Practice
 		Practice p1=new Practice();
 		Runnable r=p1::m2;
 		Thread t=new Thread(r);
-		t.start();
+		t.start()
 		
 	}
 
