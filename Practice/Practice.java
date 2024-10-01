@@ -10,8 +10,8 @@ public class Practice
 		}
 	}
 	public static void main(String[] args) {
-		Practice p=new Practice();
-		Runnable r=p::m2;
+		Practice p1=new Practice();
+		Runnable r=p1::m2;
 		Thread t=new Thread(r);
 		t.start();
 		
